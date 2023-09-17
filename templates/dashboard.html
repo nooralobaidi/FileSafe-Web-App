@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Dashboard</h2>
+    <ul>
+        <li><a href="{{ url_for('user_home') }}">Home</a></li>
+        <li><a href="{{ url_for('upload') }}">Upload Files</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+    <h3>Your Uploaded Files:</h3>
+    <ul>
+        {% for file in uploaded_files %}
+            <li><a href="{{ url_for('download_file', filename=file) }}">{{ file }}</a></li>
+        {% endfor %}
+    </ul>
+    <p>&copy; 2023 Your App Name</p>
+{% endblock %}

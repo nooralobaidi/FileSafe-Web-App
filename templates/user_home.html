@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Welcome to Your Dashboard</h2>
+                </div>
+                <div class="card-body">
+                    <h3>Uploaded Files:</h3>
+                    <ul class="list-group">
+                        {% for upload in uploads %}
+                        <li class="list-group-item">
+                            <span>{{ upload[2] }}</span>
+                            <span class="float-right">
+                                {{ upload[3] }}
+                                <a href="{{ url_for('download_file', filename=upload[2]) }}" class="btn btn-primary btn-sm ml-2" download>Download</a>
+                                <form method="POST" action="{{ url_for('delete_file', filename=upload[2]) }}" class="d-inline">
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                            </span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="card-footer text-center">
+                    <form method="POST" action="/upload" enctype="multipart/form-data">
+                        <h3>Upload a File:</h3>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="file" name="file" required>
+                                <label class="custom-file-label" for="file">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">Upload</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="{{ url_for('logout') }}" class="btn btn-danger">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
