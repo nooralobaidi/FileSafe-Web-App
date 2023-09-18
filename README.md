@@ -12,8 +12,6 @@ Before you begin working with this Flask web application, there are some prerequ
 - **Virtual Environment (optional)**: While not mandatory, knowledge of virtual environments is useful for isolating project dependencies. You can learn about virtual environments [here](https://docs.python.org/3/library/venv.html).
 
 - **Text Editor or IDE**: You'll need a text editor or integrated development environment (IDE) to work on the code. Popular options include Visual Studio Code, PyCharm, or Sublime Text.
-### Project Setup
-
 
 ## Getting Started
 
