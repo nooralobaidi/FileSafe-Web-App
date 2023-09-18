@@ -1,5 +1,7 @@
 # FileSafe-Web-App
 
+<img width="1722" alt="Welcome-Page" src="https://github.com/nooralobaidi/FileSafe-Web-App/assets/112970543/e78a3bc6-dc26-49fc-98cf-c68ddb13f64b">
+
 ## Prerequisites
 
 Before you begin working with this Flask web application, there are some prerequisites you should be aware of:
