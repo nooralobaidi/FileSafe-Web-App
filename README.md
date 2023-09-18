@@ -7,7 +7,6 @@ Before you begin working with this Flask web application, there are some prerequ
 - **Python Knowledge**: A basic understanding of Python programming is essential, including concepts like variables, data types, functions, and control structures. 
 
 - **GitHub**: Familiarity with Git and GitHub is highly recommended.If you're new to Git/GitHub, you can learn more from the [official Git documentation](https://git-scm.com/docs/gittutorial).
-- 
 - **Command Line Interface (CLI)**: A basic understanding of command line usage is beneficial.
 
 - **Virtual Environment (optional)**: While not mandatory, knowledge of virtual environments is useful for isolating project dependencies. You can learn about virtual environments [here](https://docs.python.org/3/library/venv.html).
