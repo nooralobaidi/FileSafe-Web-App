@@ -81,6 +81,6 @@ http://localhost:5000
 
 - Access your files from anywhere using a web browser.
 - No need to install additional software.
-  <img width="1722" alt="Download Files" src="https://github.com/nooralobaidi/FileSafe-Web-App/assets/112970543/676d89b9-dbfd-464b-81c3-a84080efc715">
+<img width="1722" alt="Download Files" src="https://github.com/nooralobaidi/FileSafe-Web-App/assets/112970543/676d89b9-dbfd-464b-81c3-a84080efc715">
 
   
