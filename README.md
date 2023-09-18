@@ -1,8 +1,8 @@
-# FileSafe-Web-App
+# 👷 FileSafe-Web-App
 
 <img width="1722" alt="Welcome-Page" src="https://github.com/nooralobaidi/FileSafe-Web-App/assets/112970543/e78a3bc6-dc26-49fc-98cf-c68ddb13f64b">
 
-## Prerequisites
+## 🦋 Prerequisites
 
 Before you begin working with this Flask web application, there are some prerequisites you should be aware of:
 
@@ -15,7 +15,7 @@ Before you begin working with this Flask web application, there are some prerequ
 
 - **Text Editor or IDE**: You'll need a text editor or integrated development environment (IDE) to work on the code. Popular options include Visual Studio Code, PyCharm, or Sublime Text.
 
-## Getting Started
+## 🛠️ Getting Started
 
 Before you begin, make sure you have Python installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 
@@ -55,7 +55,7 @@ http://localhost:5000
 ```
 
 
-## App Features
+## 🚀 App Features
 
 ### User Authentication
 
